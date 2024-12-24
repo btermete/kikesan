@@ -1,0 +1,316 @@
+/*
+Theme Name: blackair
+Theme URI: http://themeforest.net/user/lithemes
+Author: Lithemes
+Author URI: http://lithemes.com/
+Version: 2.0
+Description: A Beautiful, Professional, Ultimate And Onepage Wordpress Theme Made by Lithemes.
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blackair
+Domain Path: /languages/
+Tags:  right-sidebar,  theme-options, featured-images, custom-menu, translation-ready
+
+
+
+
+.lb-style-switch .switch-button{
+	display:none;
+} 
+*/
+.widget_search input[type="submit"]:hover { background-color: transparent; }
+.filter ul li, table tbody { background-color: #fff; }
+.comments-area{width:100%;padding:0px 15px;}
+.comment-form{margin:30px 0px 60px;}
+.comment-form label{display:block;}
+.comment-form textarea{width:100%;min-height:80px;border:1px solid #ddd;margin-bottom:10px;color:#000;background-color:transparent;}
+.comment-form input[type="text"],.comment-form input[type="email"],.comment-form input[type="url"],
+.comment-form input[type="date"],.comment-form input[type="text"]{display:block;width:100%;padding:8px 12px;font-size:16px;line-height:24px;border:1px solid #ddd;background-color:transparent;margin-bottom:10px;color:#000;background-image:none;-webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s}
+
+.comment-notes{margin-bottom:10px;}
+.comment-form-half{width:100%;float:left;padding:0px 145px;}
+
+
+
+.bypostauthor{color:#333;}
+.alignleft{text-align:left;}
+.alignright{text-align:right;}
+.aligncenter{text-align:center;}
+.wp-caption{color:#333;line-height:24px;font-size:16px;}
+.wp-caption-text{font-size:14px;line-height:20px;}
+.gallery-caption{background:rgba(0,0,0,0.85);color:#fff;padding:5px;}
+.site-content{
+	margin-top:50px;
+}
+/*.salon-one,.salon-two
+{
+	display:inline-block;
+	vertical-align:top;
+	
+}*/
+.salon-one img,.salon-two img
+{
+	display:inline-block;
+	vertical-align:top;
+	height:auto !important;
+}
+.blogright {
+    display: block;
+}
+
+@media (max-width: 1280px){
+.recentblogimg{
+	width:100%;
+	margin:0px 0px 15px;
+}
+.rightpostimg{
+	width:100%;
+	
+}
+}	
+	
+
+
+@media (max-width:999px){.comment-form-half{width:100%;padding:0px 15px;}
+}
+.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important;height:1px;width:1px;overflow:hidden;}
+.screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0, 0, 0, 0.6);clip:auto !important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;}
+.comment-list{margin-bottom:30px;}
+.comment-list li{width:100%;padding:20px;border:1px solid #ddd;margin-bottom:15px;}
+.comment-list li li{width:100%;border:none;padding:0px;margin:0px;}
+.comment-body{margin-bottom:15px;}
+.avatar{margin-bottom:10px;margin-right:10px;display:inline-block;vertical-align:top;}
+.comment-author img{margin-top:0px;}
+.comment-reply-link{color:#999;text-decoration:underline;}
+/* 404 page error */
+.error404-page{text-align:center;width:100%;display:inline-block;background-color:#fff;padding-bottom:100px;vertical-align:top;}
+.error404-page h3{color:#000;}
+.error404-page img{display:inline-block;margin-bottom:40px;}
+.error404-page p{margin-bottom:30px;}
+.error404-page a{padding:10px 50px;text-transform:uppercase;display:inline-block;border:1px solid #000;font-family:'Yanone Kaffeesatz', sans-serif;font-size:24px;}
+.error404-page a:hover{border:1px solid #000;background:#000;color:#fff;}	
+/* 404 page error */
+
+.comments-area pre{
+	font-family:Arial,Helvetica,sans-serif;
+}
+ .post pre{
+	font-family:Arial,Helvetica,sans-serif;
+}
+.comments-area{
+	padding:0px;
+	width:100%;
+	}
+.salon .container .row div img{
+	padding:0px;
+	margin:0px;
+}
+.fancybox .hover img{
+	margin:0px;
+}
+
+.services div img{
+	margin:0px;
+}
+
+.comments-area p{
+	padding-bottom:15px;
+	}
+
+/* blog classic page image css   */
+.comments-area strong img{
+	padding:0px 20px 15px 0px;
+}
+.comments-area img{
+	max-width: 100% !important;
+}
+.comments-area figure img{
+	max-width: 100%;
+	margin: 20px 0px;
+}	
+.comments-area figure
+{
+	width: 100% !important;
+}
+.comments-area h2{
+ margin: 5px 0px 10px;
+}
+.comments-area table > tbody > tr > td, table > tbody > tr > th, table > tfoot > tr > td, table > tfoot > tr > th, table > thead > tr > td, table > thead > tr > th{
+border: 1px solid #e2e2e2;
+margin-top: 42px;
+}
+.comments-area table
+{margin: 10px 0px;}
+.comments-area li ul{
+		padding: 0px 15px 0px;
+
+} 
+.comments-area ul{
+	list-style-type: disc;
+	padding: 0px 15px 0px;
+}
+.comments-area li ol{
+		margin: 0px 15px 0px;
+} 
+.comments-area ol{
+	list-style: none;
+	padding: 0px 0px 0px;
+
+}
+
+.comments-area  td, .comments-area th{padding:7px;}
+.comments-area table a{padding: 10px 20px 12px;}
+.post  td, .post th{padding:7px;}
+.post table a{padding: 10px 20px 12px;}
+.post input[type="text"], 
+.post input[type="date"],
+.post input[type="email"], 
+.post input[type="password"], 
+.post input[type="tel"]{
+	
+		border:1px solid #ddd;
+		padding:7px;
+		color:#000;
+}
+.blogbox.padding-bottom-30 
+{
+	padding-bottom:30px;
+}
+.post .gallery{
+	padding:0px;
+	
+}
+.post .btn{
+	padding:6px 12px;
+	
+}
+
+.rightsidebar img{
+		max-width:100%;
+		height:auto;
+}
+
+iframe{
+    border-width: 0px;
+}
+ .row nav{ position: static;border: none; margin-top: 20px; margin-left: 15px;}
+
+ 
+.blogbox ol{
+	list-style-type:decimal;
+	
+}
+.blogmscontent .entry-meta a, .blogfullcontent .entry-meta a, .blogbox .entry-meta a{
+	font-family:Arial,Helvetica,sans-serif;
+	color:#999;
+	font-size: 12px;
+	text-decoration: none;
+	border:none;
+}
+
+.blogmscontent .entry-meta a:hover, .blogfullcontent .entry-meta a:hover, .blogbox .entry-meta a:hover{
+	color:#999;
+	background-color:transparent;
+	text-decoration:underline;	
+	border:none;
+}
+
+
+.blogmscontent .entry-title a, .blogfullcontent .entry-title a, .blogbox .entry-title a{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	border:none;
+	font-weight: 200;
+	font-size: 30px;
+	text-decoration: none; 
+}
+
+.blogmscontent .entry-title a:hover, .blogfullcontent .entry-title a:hover, .blogbox .entry-title a:hover{
+	background-color:transparent;
+	border:none;
+	color: #999;
+}
+
+.listbg .rightpostwithoutimg a,.listbg .recentblogimg a,.listbg .rightpostimg a{
+	margin: 0px;
+	padding:0px;
+}
+
+
+iframe{
+    border-width: 0px;
+}
+.padding-top-class{	padding-top: 49px;}
+.fixed-top-position{position:fixed;top:20px;}
+.overflow-hw{width:50px;height:50px;overflow:auto;}
+.height-px30{height: 30px;}
+ .row nav{ position: static;border: none; margin-top: 20px; margin-left: 15px;}
+div.wpcf7-validation-errors,div.wpcf7-mail-sent-ng ,div.wpcf7-spam-blocked{
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebcccc;
+	display:inline-block;
+	margin:0px 15px;
+}
+div.wpcf7-mail-sent-ok {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+	display:inline-block;
+	margin:0px 15px;
+	}
+.ContactForm div.wpcf7-validation-errors,.ContactForm div.wpcf7-mail-sent-ng,.ContactForm div.wpcf7-spam-blocked{
+	margin:0px 11px 5px 0px;
+	font-size:14px;
+	
+}	
+.ContactForm div.wpcf7-mail-sent-ok{
+	margin:0px 11px 5px 0px;
+	font-size:14px;
+}
+.postdiv{
+	display:inline-block;
+	
+}
+.recentblogimg{
+	width:20%;
+	float:left;
+	margin-right:10px;
+	
+}
+.rightpostimg{
+	margin-top:0px;
+	width:75%;
+	float:right;
+	
+}
+
+
+.rightpostwithoutimg{
+	margin-top:0px;
+	width:100%;
+	float:left;
+	
+}
+
+.rightpostimg .entry-meta span a,.rightpostimg .entry-meta span{
+	font-size:11px;
+	opacity:.8;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.rightpostimg a{
+	font-size:24px;
+	font-family:"Yanone Kaffeesatz",sans-serif;
+}
+.rightpostwithoutimg .entry-meta span a,.rightpostwithoutimg .entry-meta span{
+	font-size:11px;
+	opacity:.8;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.rightpostwithoutimg a{
+	font-size:24px;
+	font-family:"Yanone Kaffeesatz",sans-serif;
+}
+@media (max-width: 320px){
+.services div table{margin-top:0px;}
+}
+

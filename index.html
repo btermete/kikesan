@@ -1,9 +1,1270 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <title>Kikesan | Maimi</title>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kike San | Hair Dresser | Miami</title>
+  <link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" media="all">
+  <link rel="stylesheet" id="rs-plugin-settings-css" href="css/settings.css" media="all">
+  <link rel="stylesheet" id="blackair_master-css" href="css/master.css" media="all">
+  <link rel="stylesheet" id="blackair_bootstrap-css" href="css/bootstrap.css" media="all">
+  <link rel="stylesheet" id="blackair_animate-css" href="css/animate.css" media="all">
+  <link rel="stylesheet" id="blackair_font-css" href="css/font.css" media="all">
+  <link rel="stylesheet" id="blackair_fontAwesome-css" href="css/font-awesome.min.css" media="all">
+  <link rel="stylesheet" id="blackair_switcher-css" href="css/switcher.css" media="all">
+  <link rel="stylesheet" id="blackair_style-css" href="css/style.css" media="all">
+  <link rel="stylesheet" id="blackair_heading_fonts-css"
+    href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A400%2C200%2C300&amp;ver=2.0" media="all">
+  <link rel="stylesheet" id="js_composer_front-css" href="css/js_composer.min.css" media="all">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate.min.js"></script>
+  <script src="js/jquery.themepunch.tools.min.js"></script>
+  <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+  <style>
+    /* Carousel container */
+.kcarousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  max-width: 100%; /* Prevent horizontal overflow */
+  height: 60vh; /* Use viewport height for a responsive size */
+  min-height: 300px; /* Ensure a minimum height */
+  box-sizing: border-box;
+}
+
+.kcarousel, .kcarousel-images, .kcarousel-images img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Carousel images */
+.kcarousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%; /* Match the height of the carousel */
+}
+
+.kcarousel-images img {
+  flex: 0 0 100%; /* Ensure each image takes up the full carousel width */
+  height: 100%; /* Ensure the image fully occupies the carousel height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  display: block;
+}
+
+/* Carousel controls */
+.kcarousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 20px; /* Increase padding to make buttons larger */
+  cursor: pointer;
+  font-size: 24px; /* Increase font size for visibility */
+  z-index: 10; /* Ensure buttons are above other elements */
+}
+
+
+.kcarousel-button.prev {
+  left: 10px; /* Add some padding from the left edge */
+}
+
+.kcarousel-button.next {
+  right: 10px; /* Add padding from the right edge */
+}
+
+/* Optional: Hover effect for buttons */
+.kcarousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Prevent buttons from being obscured by scrollbar */
+body {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+/* Optional: Style for dots (if you want them) */
+.dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+/* Responsive adjustments for desktop screens */
+@media (min-width: 768px) {
+  .kcarousel {
+    height: 70vh; /* Increase height for larger screens */
+    min-height: 400px; /* Ensure a minimum height */
+  }
+}
+
+/* Responsive adjustments for very large screens */
+@media (min-width: 1200px) {
+  .kcarousel {
+    height: 80vh; /* Further increase height for ultra-wide screens */
+  }
+}
+
+  </style>
 </head>
-<body>
+
+<body class="page-template-default page page-id-209 group-blog wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
+  <div id="overlay"></div>
+  <div id="mobile-menu">
+    <div class="menu-short-container">
+      <ul id="primary-mobile-menu" class="">
+        <li class="page-scroll"><a href="#salon">The Salon</a></li>
+
+        <li class="page-scroll"><a href="#ourteam">Meet our team</a></li>
+
+        <li class="page-scroll"><a href="#services">Our Services</a></li>
+
+        <li class="page-scroll"><a href="#portfolio">portfolio</a></li>
+
+        <li class="page-scroll"><a href="#promotions">Promotions</a></li>
+
+        <li class="page-scroll"><a href="#video">Video</a></li>
+
+        <li class="page-scroll"><a href="https://lithemes.com/blackair-wp/blog/">Blog</a></li>
+
+        <li class="page-scroll"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">
+      Skip to content</a>
+    <header id="pagetop">
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="logo page-scroll">
+                <a href="https://lithemes.com/blackair-wp/">
+                  <img src="images/kikesanlogo.png" alt="Kike San logo">
+                </a>
+              </div>
+              <div class="mm-toggle-wrap">
+                <div class="mm-toggle">
+                  <i class="icon-menu">
+                    <img src="images/menu-icon-B.png" alt="">
+                  </i>
+                </div>
+              </div>
+              <div class="menu-short-container">
+                <ul id="primary-menu" class="menu">
+                  <li id="menu-item-1841"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1841">
+                    <a href="#salon">The Salon</a>
+                  </li>
+                  <li id="menu-item-1842"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1842">
+                    <a href="#ourteam">Meet our team</a>
+                  </li>
+                  <li id="menu-item-1843"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1843">
+                    <a href="#services">Our Services</a>
+                  </li>
+                  <li id="menu-item-1845"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1845">
+                    <a href="#promotions">Promotions</a>
+                  </li>
+                  <li id="menu-item-1846"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1846">
+                    <a href="#video">Video</a>
+                  </li>
+                  <li id="menu-item-1847"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1847">
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+    </header>
+    <div id="content" class="site-content">
+
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+          
+          <div class="kcarousel">
+            <div class="kcarousel-images">
+              <img src="images/slider1-2.jpg" alt="First Slide">
+              <img src="images/slider2-1.jpg" alt="Second Slide">
+              <img src="images/slider3-1.jpg" alt="Third Slide">
+            </div>
+        
+            <!-- Previous and Next buttons -->
+            <button class="kcarousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="kcarousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        
+            <!-- Optional: Dots to navigate directly to a slide -->
+            <div class="dots">
+              <span class="dot" onclick="currentSlide(0)"></span>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="post-209" class="post-209 page type-page status-publish hentry">
+
+              <div class="blog inner-page">
+                <div class="wow fadeInUp">
+                  <div class="col-lg-12">
+                    <div class="row">
+                      <div class="entry-content">
+                        <div class="vc_row-full-width vc_clearfix"></div>
+                        <div id="salon" class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <div class="salon col-padtop col-padtop wow fadeInUp">
+                                    <div class="row">
+                                      <div
+                                        class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft salon-two">
+                                        <img src="images/saloon-1.jpg" alt="Saloon">
+                                      </div>
+                                      <div
+                                        class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight salon-one">
+                                        <img src="images/saloon-3.jpg" alt="Saloon">
+                                      </div>
+                                      <div
+                                        class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight salon-one">
+                                        <img src="images/saloon-2.jpg" alt="Saloon">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="ourteam" class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="ourteam ">
+                                    <div class="row">
+                                      <div class="col-sm-12 col-md-4 col-lg-4">
+                                        <h2 class="stylists_29398545">Meet our Expert Stylists</h2>
+                                        <div class="ourteamd">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                            luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec.
+                                            Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut
+                                            laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec
+                                            vulputate eros.</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-12 col-md-8 col-lg-8">
+                                        <div class="responsive">
+                                          <div>
+                                            <div class="third-effect">
+                                              <img src="images/out-tem-pic-1.jpg" class="img-responsive"
+                                                alt="Sara Anderson">
+                                              <div class="mask">
+                                                <a href="https://www.facebook.com/?_rdr=p">
+                                                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="https://twitter.com/?lang=en">
+                                                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                                <a
+                                                  href="https://www.google.co.in/?gfe_rd=cr&amp;ei=yfmuVujyIfPI8AfLwJGACQ&amp;gws_rd=ssl">
+                                                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="https://www.linkedin.com/">
+                                                  <i class="fa fa-youtube" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com/">
+                                                  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                              </div>
+                                            </div>
+                                            <div class="team">
+                                              <h3 class="stylists_91130704">Sara Anderson</h3>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
+                                            </div>
+                                          </div>
+                                          <div>
+                                            <div class="third-effect">
+                                              <img src="images/out-tem-pic-3.jpg" class="img-responsive"
+                                                alt="Andria Joseph">
+                                              <div class="mask"><a href="https://www.facebook.com/?_rdr=p"><i
+                                                    class="fa fa-facebook" aria-hidden="true"></i></a> <a
+                                                  href="https://twitter.com/?lang=en"><i class="fa fa-twitter"
+                                                    aria-hidden="true"></i></a> <a
+                                                  href="https://www.google.co.in/?gfe_rd=cr&amp;ei=yfmuVujyIfPI8AfLwJGACQ&amp;gws_rd=ssl"><i
+                                                    class="fa fa-google-plus" aria-hidden="true"></i></a> <a
+                                                  href="https://www.linkedin.com"><i class="fa fa-youtube"
+                                                    aria-hidden="true"></i></a> <a href="http://instagram.com/"><i
+                                                    class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                            </div>
+                                            <div class="team">
+                                              <h3 class="stylists_91130704">Andria Joseph</h3>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
+                                            </div>
+                                          </div>
+                                          <div>
+                                            <div class="third-effect">
+                                              <img src="images/out-tem-pic-2.jpg" class="img-responsive"
+                                                alt="Medona Johnson">
+                                              <div class="mask"><a href="https://www.facebook.com/?_rdr=p"><i
+                                                    class="fa fa-facebook" aria-hidden="true"></i></a> <a
+                                                  href="http://itter.com/?lang=en"><i class="fa fa-twitter"
+                                                    aria-hidden="true"></i></a> <a
+                                                  href="https://www.google.co.in/?gfe_rd=cr&amp;ei=yfmuVujyIfPI8AfLwJGACQ&amp;gws_rd=ssl"><i
+                                                    class="fa fa-google-plus" aria-hidden="true"></i></a> <a
+                                                  href="https://www.linkedin.com/"><i class="fa fa-youtube"
+                                                    aria-hidden="true"></i></a> <a href="https://www.instagram.com/"><i
+                                                    class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                            </div>
+                                            <div class="team">
+                                              <h3 class="stylists_91130704">Medona Johnson</h3>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
+                                            </div>
+                                          </div>
+                                          <div>
+                                            <div class="third-effect">
+                                              <img src="images/out-tem-pic-2.jpg" class="img-responsive"
+                                                alt="Medona Johnson">
+                                              <div class="mask"><a href="https://www.facebook.com/?_rdr=p"><i
+                                                    class="fa fa-facebook" aria-hidden="true"></i></a> <a
+                                                  href="https://twitter.com/?lang=en"><i class="fa fa-twitter"
+                                                    aria-hidden="true"></i></a> <a
+                                                  href="https://www.google.co.in/?gfe_rd=cr&amp;ei=yfmuVujyIfPI8AfLwJGACQ&amp;gws_rd=ssl"><i
+                                                    class="fa fa-google-plus" aria-hidden="true"></i></a> <a
+                                                  href="https://www.linkedin.com/"><i class="fa fa-youtube"
+                                                    aria-hidden="true"></i></a> <a href="http://instagram.com/"><i
+                                                    class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                            </div>
+                                            <div class="team">
+                                              <h3 class="stylists_91130704">Medona Johnson</h3>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="services" class="vc_row wpb_row vc_row-fluid col-padtop">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="services">
+                                    <div class="row marbottom wow fadeInUp">
+                                      <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
+                                        <div class="subtitle">
+                                          <h2
+                                            class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 table_97080249">
+                                            CUTTING</h2>
+                                        </div>
+                                        <img src="images/cutting.jpg" class="img-responsive" alt="CUTTING">
+                                      </div>
+                                      <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
+                                        <p></p>
+                                        <table class="table table-bordered table-striped ">
+                                          <thead>
+                                            <tr>
+                                              <th>CUT</th>
+                                              <th>WOMEN</th>
+                                              <th>MEN</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>Stylist</td>
+                                              <td>$80</td>
+                                              <td>$70</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Senior Stylist</td>
+                                              <td>$90</td>
+                                              <td>$80</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Master Stylist</td>
+                                              <td>$110</td>
+                                              <td>$100</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Celebrity Stylist</td>
+                                              <td>$POA</td>
+                                              <td>$POA</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Cut</td>
+                                              <td>$</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Cut</td>
+                                              <td>$</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Cut</td>
+                                              <td>$</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Cut</td>
+                                              <td>$</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Cut</td>
+                                              <td>$</td>
+                                              <td>$</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <p></p>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <section class="services">
+                                  <div class="row marbottom wow fadeInUp">
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayhide">
+                                      <div class="subtitle">
+                                        <h2 class="titile col-xs-offset-2 table_92759015">COLOUR</h2>
+                                      </div>
+                                      <div class="subtitle">
+                                        <h2 class="color table_92759015">COLOUR</h2>
+                                      </div>
+                                      <img src="images/color.jpg" class="img-responsive" alt="COLOUR">
+                                    </div>
+                                    <div class="col-sm-12 col-md-5 col-lg-5 col-padright-none">
+                                      <p></p>
+                                      <table class="table table-bordered table-striped ">
+                                        <thead>
+                                          <tr>
+                                            <th>COLOUR</th>
+                                            <th>Jnr</th>
+                                            <th>Snr</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="bigw">Permanent, Demi Gloss</td>
+                                            <td class="smallw">from $70</td>
+                                            <td>from $80</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Colour Correction</td>
+                                            <td>from $90</td>
+                                            <td>from $110</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Fashion Foiling</td>
+                                            <td>from $75</td>
+                                            <td>from $85</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Tint roots</td>
+                                            <td>$75</td>
+                                            <td>$85</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Tint and foils</td>
+                                            <td>$110</td>
+                                            <td>$120</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Half Head – Short</td>
+                                            <td>from $120</td>
+                                            <td>from $130</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Half Head – Long</td>
+                                            <td>from $150</td>
+                                            <td>from $170</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Full Head – Short</td>
+                                            <td>from $160</td>
+                                            <td>from $180</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Full Head – Long</td>
+                                            <td>from $220</td>
+                                            <td>from $250</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <p></p>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7 col-lg-7 col-padleft-none displayvisible">
+                                      <div class="subtitle">
+                                        <h2 class="titile col-xs-offset-2 table_92759015">COLOUR</h2>
+                                      </div>
+                                      <img src="images/color.jpg" class="img-responsive" alt="COLOUR">
+                                    </div>
+                                  </div>
+                                </section>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="services">
+                                    <div class="row marbottom wow fadeInUp">
+                                      <div class="col-sm-12 col-md-7 col-lg-7 col-padright-none">
+                                        <div class="subtitle">
+                                          <h2
+                                            class="titile col-xs-offset-1 col-sm-offset-0 col-md-offset-1 table_87632631">
+                                            STYLE</h2>
+                                        </div>
+                                        <img src="images/style.jpg" class="img-responsive" alt="STYLE">
+                                      </div>
+                                      <div class="col-sm-12 col-md-5 col-lg-5 col-padleft-none">
+                                        <p></p>
+                                        <table class="table table-bordered table-striped ">
+                                          <thead>
+                                            <tr>
+                                              <th>STYLE</th>
+                                              <th>PRICE</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>Blowdrying – Short</td>
+                                              <td>$60</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Blowdrying – Medium</td>
+                                              <td>$70</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Blowdrying – Long</td>
+                                              <td>$80</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Formals</td>
+                                              <td>$130</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Bride</td>
+                                              <td>$180</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Style</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Style</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Style</td>
+                                              <td>$</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Style</td>
+                                              <td>$</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <p></p>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section id="appoinment" class="col-padtop wow fadeInUp">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="appoimentbg parallax_22829504">
+
+                                          <div class="overlay-bg">
+
+                                            <h2 class="parallax_68052519">make an appointment</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                              luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec.
+                                            </p>
+                                            <div role="form" class="wpcf7" id="wpcf7-f371-p209-o1" lang="en-US"
+                                              dir="ltr">
+                                              <div class="screen-reader-response"></div>
+                                              <form action="/blackair-wp/black/#wpcf7-f371-p209-o1" method="post"
+                                                class="wpcf7-form" novalidate="novalidate">
+                                                <div style="display: none;">
+                                                  <input type="hidden" name="_wpcf7" value="371">
+                                                  <input type="hidden" name="_wpcf7_version" value="5.0.1">
+                                                  <input type="hidden" name="_wpcf7_locale" value="en_US">
+                                                  <input type="hidden" name="_wpcf7_unit_tag"
+                                                    value="wpcf7-f371-p209-o1">
+                                                  <input type="hidden" name="_wpcf7_container_post" value="209">
+                                                </div>
+                                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                <p> <span class="wpcf7-form-control-wrap FullName"><input type="text"
+                                                      name="FullName" value="" size="40"
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                      id="con-FullName" aria-required="true" aria-invalid="false"
+                                                      placeholder="Name"></span><br>
+                                                  <span class="wpcf7-form-control-wrap email"><input type="email"
+                                                      name="email" value="" size="40"
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                      id="emailid" aria-required="true" aria-invalid="false"
+                                                      placeholder="Email ID"></span><br>
+                                                  <span class="wpcf7-form-control-wrap contact"><input type="tel"
+                                                      name="contact" value="" size="40"
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                                                      id="contactno" aria-required="true" aria-invalid="false"
+                                                      placeholder="Contact Number"></span><br>
+                                                  <span class="wpcf7-form-control-wrap date-981"><input type="text"
+                                                      name="date-981" value="" size="40"
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                      id="datePicker" aria-required="true" aria-invalid="false"
+                                                      placeholder="Date"></span><br>
+                                                  Time <span class="wpcf7-form-control-wrap AppointmentTime"><select
+                                                      name="AppointmentTime"
+                                                      class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                      id="AppointmentTime" aria-required="true" aria-invalid="false">
+                                                      <option value="11:00am">11:00am</option>
+                                                      <option value="12:00am">12:00am</option>
+                                                      <option value="01:00pm">01:00pm</option>
+                                                      <option value="02:00pm">02:00pm</option>
+                                                      <option value="03:00pm">03:00pm</option>
+                                                      <option value="04:00pm">04:00pm</option>
+                                                      <option value="05:00pm">05:00pm</option>
+                                                      <option value="06:00pm">06:00pm</option>
+                                                    </select></span><br>
+                                                  <span class="wpcf7-form-control-wrap message"><textarea name="message"
+                                                      cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"
+                                                      id="message" aria-invalid="false"
+                                                      placeholder="Description"></textarea></span><br>
+                                                  <input type="submit" value="SUBMIT"
+                                                    class="wpcf7-form-control wpcf7-submit btn btn-default" id="send">
+                                                </p>
+                                              </form>
+                                            </div>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                        </div>
+                                      </div>
+                                      <div class="clearfix"></div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                          class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="excellence wow fadeInUp">
+                                    <div id="parallax-2" class="parallax fixed fixed-desktop parallax_76471615">
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-sm-6 col-md-5 col-lg-5 pull-right col-pad5 bg-white">
+                                            <h2 class="parallax_78783402">Expression of Excellence</h2>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus
+                                            est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam
+                                            cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet
+                                            nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros.
+                                            Integer scelerisque lorem id massa accumsan, ut faucibus ante suscipit. Nunc
+                                            tincidunt et ligula vitae pharetra.
+                                          </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vc_row-full-width vc_clearfix"></div>
+                        <div id="portfolio" class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="gallery">
+                                    <div class="row">
+                                      <div class="col-lg-12 text-center">
+                                        <h2 class="portfolio_53383356">Proud portfolio</h2>
+                                      </div>
+                                      <div class="col-lg-12 filter">
+                                        <ul>
+                                          <li><a href="#" data-filter="*" class="active">All</a></li>
+                                          <li><a href="#" data-filter=".Coloring">Coloring</a></li>
+                                          <li><a href="#" data-filter=".Manicuring">Manicuring</a></li>
+                                          <li><a href="#" data-filter=".Cutting">Cutting</a></li>
+                                          <li><a href="#" data-filter=".Conditioning">Conditioning</a></li>
+                                          <li><a href="#" data-filter=".Styling">Styling</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="clearfix"></div>
+                                      <div class="portfoliodiv">
+
+                                        <div class="col-25 Coloring Manicuring"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/1.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/1.jpg" alt="CUT-2">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>CUT-2</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Cutting"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/4.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/4.jpg" alt="Style-2">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Style-2</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Cutting"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/04/5.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/5.jpg" alt="Cut-3">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Cut-3</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Conditioning"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/8.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/8.jpg" alt="Style-3">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Style-3</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Styling"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/7.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/7.jpg" alt="Cut-4">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Cut-4</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Manicuring Styling"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/2.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/2.jpg" alt="Style-1">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Style-1</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/04/6.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/6.jpg" alt="Style-4">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Style-4</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+
+                                        <div class="col-25 Coloring Conditioning"> <a class="fancybox"
+                                            href="https://lithemes.com/blackair-wp/wp-content/uploads/sites/2/2016/03/3.jpg"
+                                            data-fancybox-group="gallery">
+                                            <div class="hover">
+                                              <img src="images/3.jpg" alt="Cut-1">
+                                              <div class="mask-img">
+                                                <div class="hvrlink">
+                                                  <h3>Cut-1</h3>
+                                                  <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="promotions" class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="promotions col-padtop wow fadeInUp">
+
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="bg-gray promotion_77899516">
+                                          <h2 class="text-center promotion_58596143">Promotions and Specials</h2>
+                                          <div class="col-sm-12 col-lg-12">
+                                            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+                                              <div class="carousel-inner" role="listbox">
+
+                                                <div class="item  active">
+                                                  <div class="img-right"><img src="images/P-slide-1.jpg"
+                                                      alt="Free hair treatment" class="img-responsive"></div>
+                                                  <div class="col-pad4 gbg-white">
+                                                    <h4 class="promotion_93489789">Free hair treatment</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                                      pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus
+                                                      lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris
+                                                      massa consequat sem, ut laoreet nisi erat et lectus.</p>
+                                                  </div>
+                                                </div>
+
+
+                                                <div class="item ">
+                                                  <div class="img-right"><img src="images/P-slide-3.jpg"
+                                                      alt="Happy Hair" class="img-responsive"></div>
+                                                  <div class="col-pad4 gbg-white">
+                                                    <h4 class="promotion_93489789">Happy Hair</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                                      pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus
+                                                      lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris
+                                                      massa consequat sem, ut laoreet nisi erat et lectus.</p>
+                                                  </div>
+                                                </div>
+
+
+                                                <div class="item ">
+                                                  <div class="img-right"><img src="images/P-slide-2.jpg"
+                                                      alt="Monday Makeup" class="img-responsive"></div>
+                                                  <div class="col-pad4 gbg-white">
+                                                    <h4 class="promotion_93489789">Monday Makeup</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                                      pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus
+                                                      lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris
+                                                      massa consequat sem, ut laoreet nisi erat et lectus.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="carousel-control"> <a class="left" href="#myCarousel-1"
+                                                  role="button" data-slide="prev"></a> <a class="right"
+                                                  href="#myCarousel-1" role="button" data-slide="next"></a> </div>
+                                            </div>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="video" class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="video col-padtop wow fadeInUp">
+                                    <div class="row">
+                                      <div class="col-md-7 col-lg-8">
+                                        <div class="responsive-object">
+                                          <p> </p>
+                                          <p><iframe width="640" height="360"
+                                              src="https://www.youtube.com/embed/idjnjfPbRSg?feature=oembed"
+                                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                              allowfullscreen=""></iframe></p>
+                                          <p> </p>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-5 col-lg-4 pull-right">
+                                        <h2 class="video_33597726">Showreel</h2>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus
+                                          est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam
+                                          cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi
+                                          erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros.
+                                          Integer scelerisque lorem id massa accumsan, ut faucibus ante suscipit. Nunc
+                                          tincidunt et ligula vitae pharetra. Fusce ut lobortis augue, eget volutpat
+                                          felis.</p>
+                                      </div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vc_row wpb_row vc_row-fluid">
+                          <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner ">
+                              <div class="wpb_wrapper">
+                                <div class="">
+                                  <section class="testimonialdiv col-padtop wow fadeInUp">
+
+                                    <div class="testimonilabg">
+
+                                      <h2 class="text-center testimonials_57879862">Testimonials</h2>
+                                      <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+
+                                          <div class="item  active">
+                                            <div class="img-left"><img src="images/a1.jpg" alt="Monday Makeup"
+                                                class="img-responsive"></div>
+                                            <div class="col-pad4 tbg-white">
+                                              <h4 class="testimonials_96303642">Monday Makeup</h4>
+                                              <h6 class="testimonials_91098254">Advertising Model</h6>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra
+                                                nec. Nullam cursus, neque non congue aliquam, mauris massa consequat
+                                                sem, ut laoreet nisi erat et lectus.</p>
+                                            </div>
+                                          </div>
+
+
+                                          <div class="item ">
+                                            <div class="img-left"><img src="images/a5.jpg" alt="Free hair treatment"
+                                                class="img-responsive"></div>
+                                            <div class="col-pad4 tbg-white">
+                                              <h4 class="testimonials_96303642">Free hair treatment</h4>
+                                              <h6 class="testimonials_91098254">Advertising Model</h6>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra
+                                                nec. Nullam cursus, neque non congue aliquam, mauris massa consequat
+                                                sem, ut laoreet nisi erat et lectus.</p>
+                                            </div>
+                                          </div>
+
+
+                                          <div class="item ">
+                                            <div class="img-left"><img src="images/a4.jpg" alt="Free hair treatment"
+                                                class="img-responsive"></div>
+                                            <div class="col-pad4 tbg-white">
+                                              <h4 class="testimonials_96303642">Free hair treatment</h4>
+                                              <h6 class="testimonials_91098254">Advertising Model</h6>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra
+                                                nec. Nullam cursus, neque non congue aliquam, mauris massa consequat
+                                                sem, ut laoreet nisi erat et lectus.</p>
+                                            </div>
+                                          </div>
+
+
+                                          <div class="item ">
+                                            <div class="img-left"><img src="images/a6.jpg" alt="Monday Makeup"
+                                                class="img-responsive"></div>
+                                            <div class="col-pad4 tbg-white">
+                                              <h4 class="testimonials_96303642">Monday Makeup</h4>
+                                              <h6 class="testimonials_91098254">Advertising Model</h6>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                                                luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra
+                                                nec. Nullam cursus, neque non congue aliquam, mauris massa consequat
+                                                sem, ut laoreet nisi erat et lectus.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-control"> <a class="left" href="#myCarousel-2"
+                                            role="button" data-slide="prev"></a> <a class="right" href="#myCarousel-2"
+                                            role="button" data-slide="next"></a> </div>
+                                      </div>
+                                      <div class="clearfix"></div>
+                                    </div>
+
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="comments" class="comments-area ">
+                        </div>
+                        <!-- #comments -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .entry-content -->
+              </div>
+            </div>
+            <!-- #post-## -->
+
+          </div>
+        </main>
+        <!-- #main -->
+      </div>
+      <!-- #primary -->
+
+    </div>
+    <!-- #content -->
+    <section id="contact">
+      <div class="footer-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>
+                Contact </h2>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="contactmap">
+                <div class="mapcont">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25216.227802888236!2d144.956981!3d-37.812802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4e793770d3%3A0x9e44d6ad0d76ba7c!2s121+King+St%2C+Melbourne+VIC+3000%2C+Australia!5e0!3m2!1sen!2sus!4v1429013152809"></iframe>
+                </div>
+                <div class="social">
+                  <p>121 King Street, Melbourne Victoria 3000 Australia</p>
+                  <div><span>Phone -+61 0 0000 0000</span></div> <span>Email - <a
+                      href="mailto:%20info@blackair.com">info@blackair.com</a></span>
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a><a
+                      href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a><a
+                      href="https://plus.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a><a
+                      href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a><a
+                      href="http://instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 ContactForm">
+              <div role="form" class="wpcf7" id="wpcf7-f362-o3" lang="en-US" dir="ltr">
+                <div class="screen-reader-response"></div>
+                <form action="/blackair-wp/black/#wpcf7-f362-o3" method="post" class="wpcf7-form"
+                  novalidate="novalidate">
+                  <div style="display: none;">
+                    <input type="hidden" name="_wpcf7" value="362">
+                    <input type="hidden" name="_wpcf7_version" value="5.0.1">
+                    <input type="hidden" name="_wpcf7_locale" value="en_US">
+                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f362-o3">
+                    <input type="hidden" name="_wpcf7_container_post" value="0">
+                  </div>
+                  <div class="wpcf7-response-output wpcf7-display-none"></div>
+                  <p><span class="wpcf7-form-control-wrap FullName"><input type="text" name="FullName" value=""
+                        size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="FullName"
+                        aria-required="true" aria-invalid="false" placeholder="Name"></span><br>
+                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40"
+                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                        id="email-id" aria-required="true" aria-invalid="false" placeholder="Email ID"></span><br>
+                    <span class="wpcf7-form-control-wrap contact"><input type="tel" name="contact" value="" size="40"
+                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                        id="contact-no" aria-required="true" aria-invalid="false"
+                        placeholder="Contact Number"></span><br>
+                    <span class="wpcf7-form-control-wrap companyname"><input type="text" name="companyname" value=""
+                        size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="company-name"
+                        aria-required="true" aria-invalid="false" placeholder="Company Name"></span><br>
+                    <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10"
+                        class="wpcf7-form-control wpcf7-textarea" id="con-message" aria-invalid="false"
+                        placeholder="Description"></textarea></span>
+                  </p>
+                  <p><input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit btn btn-default"
+                      id="con-send"></p>
+                </form>
+              </div>
+              <div class="coypright">
+                <p>© kikesan 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="scrollup">
+      Top</a>
+  </div>
+  <!-- #page -->
+
+  <style>
+    .revslider_85595782 {}
+
+    .gallery_35942966 {}
+
+    .stylists_29398545 {}
+
+    .stylists_91130704 {}
+
+    .subtitle .table_97080249 {}
+
+    .subtitle .table_92759015 {}
+
+    .subtitle .table_87632631 {}
+
+    .parallax_22829504 {
+      background-image: url('images/123.jpg');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-attachment: fixed;
+    }
+
+    .parallax_68052519 {}
+
+    .parallax_68052519 {}
+
+    .parallax_76471615 {
+      background-image: url('images/parallax-bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-attachment: fixed;
+    }
+
+    .parallax_78783402 {}
+
+    .parallax_78783402 {}
+
+    .portfolio_53383356 {}
+
+    .promotion_58596143 {}
+
+    .promotion_93489789 {}
+
+    .video_33597726 {}
+
+    .testimonials_57879862 {}
+
+    .testimonials_96303642 {}
+
+    .testimonials_91098254 {}
+
+    .testimonials_91098254 {}
+
+    #contact {
+      background: url('images/footerbg-1.jpg') no-repeat left center #fff;
+    }
+
+    .blog .pagetitle {
+      background-image: url('')
+    }
+  </style>
+  <script src="js/scripts.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.extension.js"></script>
+  <script src="js/function.js"></script>
+  <script src="js/session.js"></script>
+  <script src="js/comment-reply.min.js"></script>
+  <script src="js/wp-embed.min.js"></script>
+  <script src="js/js_composer_front.min.js"></script>
   
+  <script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.kcarousel-images img');
+    const dots = document.querySelectorAll('.dot');
+
+    function updateCarousel() {
+      // Move carousel images
+      const carouselImages = document.querySelector('.kcarousel-images');
+      carouselImages.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+      // Update active dot
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[currentIndex].classList.add('active');
+    }
+
+    function moveSlide(direction) {
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = images.length - 1;
+      if (currentIndex >= images.length) currentIndex = 0;
+      updateCarousel();
+    }
+
+    function currentSlide(index) {
+      currentIndex = index;
+      updateCarousel();
+    }
+
+    // Initialize the carousel
+    updateCarousel();
+  </script>
 </body>
+
 </html>
